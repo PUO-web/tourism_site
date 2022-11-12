@@ -1,5 +1,5 @@
 .home {
-    margin: 0;
+    margin: 0; 
     background-image: url(./Images/banner\ home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,6 +10,13 @@
   margin: 0;
 }
 
+.about {
+  margin: 0;
+  /* background-image: url(https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_450,q_auto,w_753/v1/filestore/wbkvgtqsieqegkruuaxqlyt17c1s_1579183712_shutterstock_771267253.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
   /* For navigation bar */
 
   header {
@@ -17,6 +24,7 @@
     background: #ffffff1a;
     box-shadow: 0 4px 6px rgba(0,0,0,.2);
     font-family: 'Lilita One', cursive;
+    margin: 0;
   }
   .container {
     padding: 0 20px;
@@ -147,4 +155,21 @@
 .footer-container {
   display: flex;
   justify-content: center;
-}  
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  background-color: #0000005a;
+  margin-block: 10px;
+  margin-inline: 400px;
+}
+
+.about_image_container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 15px;
+}
