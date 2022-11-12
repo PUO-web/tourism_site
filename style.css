@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    background-image: url(./Images/banner\ home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   
   }
 
@@ -7,9 +10,9 @@ body {
 
   header {
     padding: 20px 0;
-    background: lightcoral;
+    background: #ffffff1a;
     box-shadow: 0 4px 6px rgba(0,0,0,.2);
-    font-family: 'Montserrat', sans-serif;  
+    font-family: 'Lilita One', cursive;
   }
   .container {
     padding: 0 20px;
@@ -45,7 +48,7 @@ body {
     text-decoration: none;
     display: block;
     position: relative;
-    color: #000000;
+    color: #353535;
     text-transform: uppercase;
   }
   nav a:after {
@@ -55,7 +58,7 @@ body {
     position: absolute;
     left: 0;
     bottom: 15px;
-    background: #868686;
+    background: #000000;
     transition: width .5s linear;  
   }
   nav a:hover:after {width: 100%;}
@@ -83,11 +86,11 @@ body {
   } */
 
   .banner_container {
-    font-family: 'Oswald', sans-serif;;
+    font-family: 'Bad Script', cursive;
     color: aliceblue;
-    background-image: url(./Images/banner\ home.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-image: url(./Images/banner\ home.jpg); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     height: 500px;
     display: flex;
     justify-content: center;
@@ -102,8 +105,9 @@ body {
 
   .tag {
     padding: 1px;
-    background-color: #000000;
+    background-color: #0000007b;
     border-radius: 15px;
+
   }
 
   .grid { 
@@ -119,10 +123,22 @@ body {
     object-fit: cover;
   }
 
+.pixabay {
+  background-color: #ff0000;
+}
   footer {
     background-color: #000000;
+    margin: 0;
+    height: 155px;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
 
 
 
