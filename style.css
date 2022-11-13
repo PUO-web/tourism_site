@@ -15,9 +15,9 @@
 
 .about {
   margin: 0;
-  /* background-image: url(https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_450,q_auto,w_753/v1/filestore/wbkvgtqsieqegkruuaxqlyt17c1s_1579183712_shutterstock_771267253.jpg); 
+  background-image: url(https://www.hdwallback.net/wp-content/uploads/2017/11/4k-Nature-Wallpaper-Widescreen.jpg); 
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
 }
 
   /* For navigation bar */
@@ -162,25 +162,85 @@
   justify-content: center;
 }
 
-#form_sample {
+/* .form-container {
   display: flex;
   justify-content: center;
   padding: 10px;
   text-align: center;
-  background-color: #0000005a;
+  background-color: #ffffffa6;
   margin-block: 10px;
   margin-inline: 400px;
   border-radius: 25px;
-}
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
 
 .about_image_container {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   justify-content: center;
   padding: 15px;
+  position: relative;
+  top: -15px;
 }
 
-.about_title {
+#about_title {
   font-family: 'Lilita One', cursive;
   font-size: 40px;
 }
+
+button {
+  background-color: lightcoral;
+  border: none;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 0.5em;
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(247, 88, 88);
+}
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: rgb(30,30,40);;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
